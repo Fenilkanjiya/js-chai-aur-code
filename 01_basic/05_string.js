@@ -17,3 +17,9 @@ console.log(gameName.slice(-4, 4))
 const newStringOne = '    Fenil   kanjiya   '
 console.log(newStringOne.trim())
 
+const url = 'https/::hitesh%20chaudhary.com'
+console.log(url.replace('%20', '-'))
+console.log(url.includes('hitesh'))
+
+const game = 'alfa-noy-tiwind-asset'
+console.log(game.split('-'))  // return array
